@@ -1,0 +1,98 @@
+ /* styles.css */
+ /* Общие стили */
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: 'Arial', sans-serif;
+ }
+ 
+ body {
+     line-height: 1.6;
+     color: #333;
+     background-color: #f5f5f5;
+ }
+ 
+ header {
+     background: #4CAF50;
+     color: white;
+     padding: 1rem;
+     text-align: center;
+     position: relative;
+ }
+ 
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+ }
+ 
+ /* Стили главной страницы */
+ .hero {
+     text-align: center;
+     padding: 4rem 2rem;
+     margin: 2rem auto;
+     background: white;
+     border-radius: 8px;
+     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+ }
+ 
+ .next-page-btn {
+     display: inline-block;
+     background: #4CAF50;
+     color: white;
+     padding: 10px 20px;
+     margin-top: 1rem;
+     text-decoration: none;
+     border-radius: 5px;
+     font-weight: bold;
+ }
+ 
+ /* Стили страницы с описанием */
+ .content-page {
+     background: white;
+     padding: 2rem;
+     margin: 2rem auto;
+     border-radius: 8px;
+     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+ }
+ 
+ .content-page h2 {
+     margin: 1.5rem 0 1rem;
+     color: #2c3e50;
+ }
+ 
+ .content-page p {
+     margin-bottom: 1rem;
+ }
+ 
+ .diagram {
+     max-width: 100%;
+     margin: 1.5rem 0;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+ }
+ 
+ /* Стили третьей страницы */
+ .links-page {
+     background: white;
+     padding: 2rem;
+     margin: 2rem auto;
+     border-radius: 8px;
+     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+ }
+ 
+ .links-list {
+     list-style-type: none;
+ }
+ 
+ .links-list li {
+     margin: 1rem 0;
+ }
+ 
+ .links-list a {
+     color: #4CAF50;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ 
